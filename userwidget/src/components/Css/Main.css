@@ -1,0 +1,18 @@
+
+.head{
+    height: 100vh;
+    border: 2px solid rgb(97, 97, 196);
+    padding:5px ;
+    background-color: rgb(238, 238, 238);
+}
+
+.widgets{
+    height: 500px;
+    width: 400px;
+    background-color: rgb(156, 221, 143);
+}
+
+
+.main{
+    background-color: rgb(252, 238, 221);
+}

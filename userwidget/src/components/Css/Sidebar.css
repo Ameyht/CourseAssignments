@@ -1,0 +1,74 @@
+.container{
+    /* border: 2px solid black; */
+    height: 100vh;
+    /* width: 140px; */
+    padding-left: 10px;
+    margin-left: 0;
+    padding-right: 0;
+}
+
+.container-fluid{
+padding-left: 0;
+
+}
+.nav-link{
+    color: rgb(0, 0, 0);
+}
+/* h5{
+    color: black;
+} */
+
+.logo{
+    height: auto;
+    width: 100%;
+    margin-left: 10px;
+}
+/* Add these styles to your CSS stylesheet */
+
+.svg-link-container:hover {
+    background-color: #ffffff; /* Change to the desired background color on hover */
+  }
+  
+  .svg-link-container:hover {
+    background-color: #ccabda;
+    color: #661a8a; /* Change to the desired font color on hover */
+  }
+  
+
+/* li{
+    background-color: rgb(255, 255, 255);
+    height: 40px;
+
+    width: 150px;
+} */
+
+/* YourComponent.css */
+.svg-link-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: flex-start;
+    /* margin-left: 20px; */
+    padding-left: 20px;
+    height: 40px;
+    
+     /* Add some spacing between the SVG and the link */
+  }
+  
+  /* .nav-link {
+    text-decoration: none;
+    color: #000; 
+    transition: color 0.3s; 
+  }
+  
+  .nav-link:hover {
+    color: #007bff; 
+    text-decoration: underline; 
+  } */
+  
+  .nav-link{
+    margin-left: 6px;
+  }
+  .sidebar{
+width: 180px;
+  }

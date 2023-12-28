@@ -1,0 +1,65 @@
+.blank{
+    height: 100px;
+    background-color:  rgb(238, 238, 238);
+    
+}
+
+/* YourComponent.css */
+
+.container-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 100px;
+  }
+  
+.btn{
+    width: 150px;
+    background-color: rgb(124, 17, 224);
+    color: white;
+    /* padding-right: 30px; */
+    padding: 10px;
+  }
+  .left-div {
+   width: 100px;
+  }
+  
+  .right-div {
+    width: 250px;
+    display: flex;
+  }
+
+  .two-btn{
+    display: flex;
+    height: 50px;
+    margin-right: 15px;
+    background-color: #ffffff;
+  }
+  
+
+
+  .btn:hover {
+    background-color:blueviolet; /* Change to the desired background color on hover */
+  }
+  
+  .btn:hover {
+    background-color:blueviolet;
+    color: white; /* Change to the desired font color on hover */
+  }
+.custom-button{
+    width: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(197, 197, 197);
+}
+
+  .custom-button:hover {
+    background-color:rgb(255, 255, 255); /* Change to the desired background color on hover */
+  }
+  
+  .custom-button:hover {
+    background-color:rgb(130, 28, 224);
+    color: #ffffff; /* Change to the desired font color on hover */
+    border: 1px solid rgb(130, 28, 224);
+  }
+

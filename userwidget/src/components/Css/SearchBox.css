@@ -1,0 +1,28 @@
+/* YourComponent.css */
+
+.search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-wrapper {
+    position: relative;
+  }
+  
+  .search-box {
+    padding: 8px 32px 8px 8px; /* Adjust padding to accommodate the icon */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 200px; /* Set the width as needed */
+  }
+  
+  .search-icon {
+    fill: #333; /* Change this color to your desired icon color */
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    transform: translateY(-50%);
+  }
+  

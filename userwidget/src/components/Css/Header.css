@@ -1,0 +1,35 @@
+.header{
+    background-color: rgb(174, 180, 180);
+    height: 70px;
+    width: 100%;
+    /* margin-left:10px; */
+    /* padding-left:20px ; */
+
+}
+
+/* YourComponent.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px; */
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 70px;
+    align-items: center;
+  }
+  
+  .left-div {
+    width: 100px;
+    padding: 0;
+    height: 50px;
+    padding-top: 5px;
+    
+  }
+  
+  .right-div {
+    width: 50px;
+    
+    
+  }
+  
