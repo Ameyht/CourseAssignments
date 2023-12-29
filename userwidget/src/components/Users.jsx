@@ -5,8 +5,8 @@ function Users() {
   return (
     <div className="blank">
       <div className="container-1">
+        {/* left div content */}
         <div className="left-div">
-          {/* Content for the left div */}
           <h5>
             <b>Users</b>
           </h5>

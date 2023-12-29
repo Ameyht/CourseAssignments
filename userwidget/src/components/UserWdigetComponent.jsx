@@ -5,6 +5,7 @@ import UserWidget from "./UserWidget";
 import WidgetFoot from "./WidgetFoot";
 
 function UserWdigetComponent() {
+  // User Data is stored in an array
   const userData = [
     {
       name: "Rowan Torres",
@@ -18,12 +19,18 @@ function UserWdigetComponent() {
       image: "../images/roman.jpeg",
       status: "InActive",
     },
+    {
+      name: "Roman Torres",
+      email: "Romantorres@gmail.com",
+      image: "../images/roman.jpeg",
+      status: "InActive",
+    },
   ];
   return (
     <div className="userwidget">
       {/* <div className="container"> */}
       <div className="row">
-        <d iv className="left col-6 d-flex justify-content-start mt-3">
+        <div className="left col-3 d-flex justify-content mt-3">
           <button className="commonbutton" type="button">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -50,7 +57,7 @@ function UserWdigetComponent() {
             </svg>
             <span>Filter</span>
           </button>
-        </d>
+        </div>
         <div className="col-6 d-flex justify-content-end align-items-center mt-2">
           <SearchBox />
         </div>

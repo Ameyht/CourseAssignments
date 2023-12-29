@@ -1,4 +1,3 @@
-/* YourComponent.css */
 
 
   .search-wrapper {
@@ -32,6 +31,6 @@
     }
 
     .search-wrapper span {
-      display: none; /* Hide the button text */
+      display: none;
   }
   }
