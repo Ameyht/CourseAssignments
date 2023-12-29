@@ -1,4 +1,7 @@
 .App {
+  /* height:500px; */
+  height: 100%;
+  /* border: 5px solid black; */
   text-align: center;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -36,6 +39,11 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container-fluid{
+  height: 100%;
+  /* border: 5px solid black; */
+
 }
 
 /* .d1{

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Css/Header.css";
+import LoginUser from "./LoginUser";
 
 function Header() {
   return (
@@ -20,9 +21,8 @@ function Header() {
             />
           </svg>
         </div>
-        <div className="right-div">
-          {/* Content for the right div */}
-          Right Content
+        <div className="rightdiv">
+          <LoginUser />
         </div>
       </header>
     </div>

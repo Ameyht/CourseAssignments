@@ -1,6 +1,6 @@
 .userwidget{
     background-color: rgb(255, 255, 255);
-    height: 400px;
+    height: 100vh;
     margin-left: 30px;
     margin-right: 30px;
     border-radius: 10px;
@@ -8,6 +8,9 @@
     /* width: ; */
   
 }
+/* .container{
+    height: 400px;
+} */
 .search{
     margin-left: 10px;
     margin-right: 20px;

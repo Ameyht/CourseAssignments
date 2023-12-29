@@ -1,28 +1,38 @@
 /* YourComponent.css */
 
-.search-container {
+
+  .search-wrapper {
     display: flex;
     align-items: center;
-  }
-  
-  .search-wrapper {
     position: relative;
+    border: 1px solid rgb(126, 126, 126);
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-right: 10px;
+    height: 27px;
+    background: rgb(236, 236, 236);
+      
   }
   
   .search-box {
-    padding: 8px 32px 8px 8px; /* Adjust padding to accommodate the icon */
-    border: 1px solid #ccc;
+    padding: 8px 32px 8px 8px;
+    border: 0px ;
+    width: 200px; 
     border-radius: 4px;
-    width: 200px; /* Set the width as needed */
+    margin-left: 10px;
+    height: 25px;
+     width: 150px;
+     background: rgb(236, 236, 236);
+     
   }
   
-  .search-icon {
-    fill: #333; /* Change this color to your desired icon color */
+  /* .search-icon {
+    fill: #a3a0a0; 
     width: 20px;
     height: 20px;
     position: absolute;
     top: 50%;
     right: 8px;
     transform: translateY(-50%);
-  }
+  } */
   

@@ -28,8 +28,11 @@
   }
   
   .right-div {
-    width: 50px;
-    
+    width: 30px;
+    /* justify-self: end; */
+    height: 50px;
+   
+   
     
   }
   

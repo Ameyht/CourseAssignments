@@ -1,13 +1,13 @@
 
 .head{
-    height: 100vh;
-    border: 2px solid rgb(97, 97, 196);
+    height: 100%;
+    /* border: 2px solid rgb(97, 97, 196); */
     padding:5px ;
     background-color: rgb(238, 238, 238);
 }
 
 .widgets{
-    height: 500px;
+    height: 100vh;
     width: 400px;
     background-color: rgb(156, 221, 143);
 }
