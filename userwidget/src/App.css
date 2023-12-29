@@ -45,6 +45,9 @@
   /* border: 5px solid black; */
 
 }
+.row{
+  margin-right:0px;
+}
 
 /* .d1{
   display: flex;

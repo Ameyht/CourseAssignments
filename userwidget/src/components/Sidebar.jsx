@@ -1,50 +1,17 @@
-// // Sidebar.js
-// import React from "react";
-// import "./Css/Sidebar.css";
-
-// function Sidebar() {
-//   return (
-//     // <div className="col-sm-2">
-//     <div className="container col-sm-2">
-//       <div className="logo">
-//         <img src="./images/multikart.png" class="img-fluid" alt="..." />
-//       </div>
-//       <div className="main-menu">
-//         <p>Main Menu</p>
-//       </div>
-
-//       <nav>
-//         <ul>
-//           <li>
-//             <a href="#">Dashboard</a>
-//           </li>
-//           <li>
-//             <a href="#">users</a>
-//           </li>
-//           {/* Add more links as needed */}
-//         </ul>
-//       </nav>
-//     </div>
-//     // </div>
-//   );
-// }
-
-// export default Sidebar;
-
 // Sidebar.js
 import React from "react";
 import "./Css/Sidebar.css";
 
 function Sidebar() {
   return (
-    <div className="container col-sm-2">
+    <div className="container col">
       <div className="row">
         <div className="sidebar">
           <div className="logo">
             <img src="./images/multikart.png" className="img-fluid" alt="..." />
           </div>
 
-          <div className="d-flex flex-column">
+          <div className="side d-flex flex-column">
             <div className="p-2">
               <h5>Main Menu</h5>
             </div>
@@ -91,8 +58,16 @@ function Sidebar() {
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-          {/* <nav>
+export default Sidebar;
+
+{
+  /* <nav>
             <ul className="nav flex-column">
               <li className="nav-item">
                 <h5>Main Menu</h5>
@@ -158,11 +133,5 @@ function Sidebar() {
                 </div>
               </li>
             </ul>
-          </nav> */}
-        </div>
-      </div>
-    </div>
-  );
+          </nav> */
 }
-
-export default Sidebar;

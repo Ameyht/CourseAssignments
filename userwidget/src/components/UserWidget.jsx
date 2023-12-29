@@ -1,27 +1,44 @@
 import React from "react";
 import "./Css/UserWidget.css";
 
-function UserWidget() {
+function UserWidget({ name, email, image, status }) {
   return (
     <div>
       <div className="widget" style={{ width: "18rem" }}>
-        <img src="../images/demo.avif" className="img" alt="..." />
+        <img src={image} className="img" alt="..." />
         <div className="data">
-          <b>Rowan Torres</b>
-          <p>Rowantorres@gmail.com</p>
-          <p>
-            <svg width="25" height="20">
-              <circle
-                cx="7"
-                cy="7"
-                r="7"
-                fill="green"
-                stroke=""
-                strokeWidth="3"
-              />
-            </svg>
-            Active
-          </p>
+          <b>{name}</b>
+          <p>{email}</p>
+
+          {status === "Active" ? (
+            <p>
+              <svg width="25" height="20">
+                <circle
+                  cx="7"
+                  cy="7"
+                  r="7"
+                  fill="green"
+                  stroke=""
+                  strokeWidth="3"
+                />
+              </svg>
+              <b>{status}</b>
+            </p>
+          ) : (
+            <p>
+              <svg width="25" height="20">
+                <circle
+                  cx="7"
+                  cy="7"
+                  r="7"
+                  fill="orange"
+                  stroke=""
+                  strokeWidth="3"
+                />
+              </svg>
+              <b>{status}</b>
+            </p>
+          )}
         </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"

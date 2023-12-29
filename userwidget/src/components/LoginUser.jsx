@@ -4,7 +4,7 @@ import "./Css/LoginUser.css";
 function LoginUser() {
   return (
     <div className="loginuser" style={{ width: "10rem" }}>
-      <img src="../images/demo.avif" className="imguser" alt="..." />
+      <img src="../images/rowan.avif" className="imguser" alt="..." />
       <div className="logged">
         <p className="username">Franklin jr</p>
         <p className="role">Super Admin</p>
