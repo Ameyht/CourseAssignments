@@ -2,10 +2,10 @@ import React from "react";
 
 const LoginUser = () => {
   return (
-    <div className="flex justify-around w-40 h-12 items-center mr-2 py-0">
+    <div className="flex justify-around w-40 h-11 items-center mr-2 py-0">
       <img
         src="../images/rowan.avif"
-        className="w-10 h-10 rounded-[20%]"
+        className="w-9 h-9 rounded-[20%]"
         alt="..."
       />
       <div className="flex flex-col items-center h-10">

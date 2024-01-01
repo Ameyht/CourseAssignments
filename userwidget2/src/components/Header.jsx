@@ -5,7 +5,7 @@ import LoginUser from "./LoginUser";
 const Header = () => {
   return (
     <div>
-      <div className="flex justify-between items-center border border-black-700 h-18 mx-3 rounded-[10px] my-2">
+      <div className="flex justify-between items-center border border-black-700 h-18 mx-3 py-1 rounded-[10px] my-2">
         <div className="left border border-black">
           <BiMenuAltLeft size={35} />
         </div>

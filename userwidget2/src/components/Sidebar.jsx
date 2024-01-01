@@ -16,7 +16,7 @@ const Sidebar = () => {
           {side ? "" : <BiMenuAltLeft size={45} />}
         </div>
       </div>
-      <div className="hidden md:flex flex-col text-[18px] px-2 md:pl-6 w-full truncate ">
+      <div className="hidden md:flex flex-col text-[18px] px-3 md:pl-6 w-full truncate ">
         <h1 className="py-2">Main Menu</h1>
         <div className="flex items-center py-2 ">
           <svg
