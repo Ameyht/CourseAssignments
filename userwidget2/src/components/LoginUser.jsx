@@ -1,0 +1,32 @@
+import React from "react";
+
+const LoginUser = () => {
+  return (
+    <div className="flex justify-around w-40 h-12 items-center mr-2 py-0">
+      <img
+        src="../images/rowan.avif"
+        className="w-10 h-10 rounded-[20%]"
+        alt="..."
+      />
+      <div className="flex flex-col items-center h-10">
+        <p className="h-5 mx-5px text-[15px]">Franklin jr</p>
+        <p className="h-3 text-[11px]">Super Admin</p>
+      </div>
+      <div class="my-3">
+        <button
+          class=" dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        ></button>
+        {/* <ul class="dropdown-menu">
+          <li>
+            <a href="/home">Home</a>
+          </li>
+        </ul> */}
+      </div>
+    </div>
+  );
+};
+
+export default LoginUser;
