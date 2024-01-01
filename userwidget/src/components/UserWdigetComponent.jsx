@@ -29,7 +29,7 @@ function UserWdigetComponent() {
   return (
     <div className="userwidget">
       {/* <div className="container"> */}
-      <div className="row">
+      <div className="rows">
         <div className="left col-3 d-flex justify-content mt-3">
           <button className="commonbutton" type="button">
             <svg

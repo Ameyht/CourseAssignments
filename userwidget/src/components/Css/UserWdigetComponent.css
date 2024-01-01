@@ -50,6 +50,11 @@
     border: 0px white;
   }
 
+  .rows{
+    display: flex;
+    justify-content: space-between;
+  }
+
   .foot{
     display: flex;
     justify-content: flex-end;
