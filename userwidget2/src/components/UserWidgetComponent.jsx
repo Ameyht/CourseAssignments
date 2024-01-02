@@ -9,7 +9,7 @@ const UserWidgetComponent = () => {
       name: "Rowan Torres",
       email: "Rowantorres@gmail.com",
       image: "../images/rowan.avif",
-      status: "Active",
+      status: "InActive",
     },
     {
       name: "Roman Torres",
