@@ -12,18 +12,18 @@ const LoginUser = () => {
         <p className="h-5 mx-5px text-[15px]">Franklin jr</p>
         <p className="h-3 text-[11px]">Super Admin</p>
       </div>
-      <div class="my-3">
+      <div class="btngrp">
         <button
-          class=" dropdown-toggle"
+          class="btn-sm dropdown-toggle"
           type="button"
           data-bs-toggle="dropdown"
           aria-expanded="false"
         ></button>
-        {/* <ul class="dropdown-menu">
+        <ul class="dropdown-menu">
           <li>
             <a href="/home">Home</a>
           </li>
-        </ul> */}
+        </ul>
       </div>
     </div>
   );

@@ -4,16 +4,15 @@ import LoginUser from "./LoginUser";
 
 const Header = () => {
   return (
-    <div>
-      <div className="flex justify-between items-center border border-black-700 h-18 mx-3 py-1 rounded-[10px] my-2">
-        <div className="left border border-black">
-          <BiMenuAltLeft size={35} />
-        </div>
-        <div className="right border border-black mr-2 rounded-10">
-          <LoginUser />
-        </div>
+    <div className="hidden md:flex justify-between items-center border border-black-700 h-12 mx-1 px-2 bg-white py-1 rounded-[10px] my-1">
+      <div className="left border-0">
+        <BiMenuAltLeft size={35} />
+      </div>
+      <div className="right border-0 mr-2 rounded-10">
+        <LoginUser />
       </div>
     </div>
+    // </div>
   );
 };
 
