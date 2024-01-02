@@ -2,64 +2,60 @@ import React from "react";
 
 const UserCard = ({ name, email, image, status }) => {
   return (
-    // display: flex;
-    // justify-content: space-around;
-    // height: 9 0px;
-    // border: 2px solid rgb(179, 179, 179);
-    // background: rgb(248, 247, 247);
-    // margin: 30px;
-    // margin-left: 20px;
-    // padding: 10px;
-    // border-radius: 8px;
     <div
-      className="flex justify-around border items-center border-black p-2 h-[90px] m-4"
+      className="flex justify-around items-center rounded-2 border border-gray bg-gray-100 p-2 h-[4.5rem] m-3 flex-nowrap"
       style={{ width: "16rem" }}
     >
-      <img src={image} className="w-14 h-14 rounded-[50%]" alt="..." />
-      <div className="flex flex-col">
-        <b>{name}</b>
-        <p>{email}</p>
+      {/* <div className="h-[100%] w-[100px]"> */}
+      <img src={image} className="w-14 h-14 rounded-full" alt="..." />
+      {/* </div> */}
+
+      <div className="flex flex-col justify-center p-1">
+        <b className="text-[15px]">{name}</b>
+        <p className="text-[13px]">{email}</p>
 
         {status === "Active" ? (
-          <p className="">
-            <svg width="25" height="20">
+          <p className="flex items-start">
+            <svg width="22" height="22">
               <circle
-                cx="7"
-                cy="7"
+                cx="8"
+                cy="10"
                 r="7"
                 fill="green"
                 stroke=""
                 strokeWidth="3"
               />
             </svg>
-            <b>{status}</b>
+            <b className="text-[13px]">{status}</b>
           </p>
         ) : (
-          <p>
-            <svg width="25" height="20">
+          <p className="flex items-start">
+            <svg width="22" height="22">
               <circle
-                cx="7"
-                cy="7"
+                cx="8"
+                cy="10"
                 r="7"
                 fill="orange"
                 stroke=""
                 strokeWidth="3"
               />
             </svg>
-            <b>{status}</b>
+            <b className="text-[13px]">{status}</b>
           </p>
         )}
       </div>
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="16"
-        height="16"
-        fill="currentColor"
-        className="bi bi-three-dots-vertical"
-        viewBox="0 0 16 16"
-      >
-        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
-      </svg>
+      <div className="flex items-start h-[100%]">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="20"
+          height="20"
+          fill="currentColor"
+          className="bi bi-three-dots-vertical"
+          viewBox="0 0 16 16"
+        >
+          <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0" />
+        </svg>
+      </div>
     </div>
   );
 };

@@ -1,7 +1,7 @@
 .widget {
   display: flex;
   justify-content: space-around;
-  height: 9 0px;
+  height: 90px;
   border: 2px solid rgb(179, 179, 179);
   background: rgb(248, 247, 247);
   margin: 30px;

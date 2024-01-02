@@ -11,12 +11,12 @@ const UserWidgetComponent = () => {
       image: "../images/rowan.avif",
       status: "Active",
     },
-    // {
-    //   name: "Roman Torres",
-    //   email: "Romantorres@gmail.com",
-    //   image: "../images/roman.jpeg",
-    //   status: "InActive",
-    // },
+    {
+      name: "Roman Torres",
+      email: "Romantorres@gmail.com",
+      image: "../images/roman.jpeg",
+      status: "InActive",
+    },
     // {
     //   name: "Roman Torres",
     //   email: "Romantorres@gmail.com",
@@ -65,14 +65,12 @@ const UserWidgetComponent = () => {
           <SearchBox />
         </div>
       </div>
-      <div className="border border-black bg-gray-300 h-[84%] md:h-[80%]">
-        <div className="">
-          {userData.map((user, index) => (
-            <div className="col-md-4" key={index}>
-              <UserCard {...user} />
-            </div>
-          ))}
-        </div>
+      <div className="flex-col md:flex md:flex-row flex-nowrap border border-gray bg-white h-[84%] md:h-[80%]">
+        {userData.map((user, index) => (
+          <div className="md:col-md-4 " key={index}>
+            <UserCard {...user} />
+          </div>
+        ))}
       </div>
     </div>
   );
