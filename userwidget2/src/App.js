@@ -6,7 +6,7 @@ function App() {
     fontFamily: "'Oswald', sans-serif", // Replace 'Roboto' with your preferred font
   };
   return (
-    <div style={myStyles}>
+    <div className="h-[100%]" style={myStyles}>
       <div className="flex flex-wrap max-w-[100%] h-[100vh] border border-black-700 bg-gray-300 md:">
         <Sidebar />
         <Main />

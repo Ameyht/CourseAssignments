@@ -2,14 +2,14 @@ import React from "react";
 
 const Users = () => {
   return (
-    <div className="d-flex justify-between items-center h-[10%] bg-white mx-2 my-2">
+    <div className="d-flex justify-between items-center h-[8%] mx-2 my-2">
       <div className="flex items-center left mx-3 border-0 border-black-300 h-[60%] w-[10%] bg-gray">
         <h1 className="text-[20px] font-bold">Users</h1>
       </div>
       <div className="flex items-center right border-0 border-black-300 h-[90%] w-[13rem] bg-gray mr-3">
         {/*  */}
-        <div className="flex items-center border-black h-[100%] w-[40%]">
-          <button className="flex justify-center items-center h-[70%] border-1 w-[45%] border-gray hover:bg-purple-700">
+        <div className="flex items-center  h-[100%] w-[40%] ">
+          <button className="flex justify-center items-center h-[70%] w-[45%] bg-white border-1 border-gray-400 hover:bg-purple-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -29,7 +29,7 @@ const Users = () => {
               />
             </svg>
           </button>
-          <button className="flex justify-center items-center h-[70%] w-[45%] border-1 border-gray hover:bg-purple-700">
+          <button className="flex justify-center items-center bg-white h-[70%] w-[45%] border-1 border-gray-400 hover:bg-purple-700">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -43,7 +43,7 @@ const Users = () => {
           </button>
         </div>
         {/* Add user button */}
-        <button className="flex justify-center items-center border border-purple h-[2.3rem] px-2 bg-purple-700 text-white font-bold">
+        <button className="flex justify-center items-center border border-purple rounded-2 h-[2.3rem] p-2 bg-purple-700 text-white font-bold">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="25"

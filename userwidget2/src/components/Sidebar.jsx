@@ -9,9 +9,13 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-white border border-white-300 h-[15%] md:h-full md:w-[20%] w-full">
-      <div className="flex justify-between w-full items-center">
-        <img src="./images/multikart.png" className="" alt="..." />
+    <div className="flex flex-col items-center bg-white border border-white-300 h-[13%] w-full md:h-full md:w-[16%]">
+      <div className="flex justify-between w-full items-center md:h-[10%] w-[90%]">
+        <img
+          src="./images/multikart.png"
+          className="h-[5rem] md:h-[5rem]"
+          alt="..."
+        />
         <div onClick={handleSide} className="block px-6 md:hidden">
           {side ? "" : <BiMenuAltLeft size={45} />}
         </div>
