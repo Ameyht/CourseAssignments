@@ -13,7 +13,7 @@ const Sidebar = () => {
       <div className="flex justify-between w-full items-center my-3 md:my-0 h-[3rem] md:h-[5%] ">
         <img
           src="./images/multikart.png"
-          className="h-[5rem] md:h-[5rem]"
+          className="h-[5rem] md:h-[6.5rem]"
           alt="..."
         />
         <div onClick={handleSide} className="block px-6 md:hidden">
@@ -43,7 +43,7 @@ const Sidebar = () => {
             </svg>
             <a
               href=""
-              className="text-[18px] px-1 overflow-hidden whitespace-nowrap "
+              className="text-[16px] px-1 overflow-hidden whitespace-nowrap "
             >
               Dashboard
             </a>
@@ -66,7 +66,7 @@ const Sidebar = () => {
             </svg>
             <a
               href=""
-              className="text-[18px] px-2 overflow-hidden whitespace-nowrap"
+              className="text-[16px] px-2 overflow-hidden whitespace-nowrap"
             >
               Users
             </a>

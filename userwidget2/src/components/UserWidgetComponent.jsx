@@ -36,54 +36,54 @@ const UserWidgetComponent = () => {
       image: "../images/roman.jpeg",
       status: "Active",
     },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
   ];
   return (
     <div className="userboard flex flex-col bg-white h-[85%] md:h-[77%] mx-4">
