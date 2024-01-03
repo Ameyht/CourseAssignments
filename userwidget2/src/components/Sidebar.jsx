@@ -9,7 +9,7 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-white border border-white-300 min-h-16 h-auto md:min-h-16 md:h-auto w-full md:w-[16%]">
+    <div className="flex flex-col items-center bg-white border border-white-300 md:min-h-[30rem] min-h-16 h-auto md:h-[100%] w-full md:w-[16%]">
       <div className="flex justify-between w-full items-center my-3 md:my-0 h-[3rem] md:h-[5%] ">
         <img
           src="./images/multikart.png"

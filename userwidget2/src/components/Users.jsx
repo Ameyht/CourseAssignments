@@ -4,13 +4,13 @@ import { CgMenuGridO } from "react-icons/cg";
 
 const Users = () => {
   return (
-    <div className="d-flex justify-between items-center h-[8%] mx-2 my-2">
+    <div className="d-flex justify-between items-center h-[5%] md:h-[7%] mx-2 my-2">
       <div className="flex items-center left mx-3 border-0 border-black-300 h-[60%] w-[10%] bg-gray">
         <h1 className="text-[20px] font-bold">Users</h1>
       </div>
-      <div className="flex items-center right border-0 border-black-300 h-[90%] w-[13rem] bg-gray mr-3">
+      <div className="flex items-center border-0 border-black-300 md:h-[70%] w-[13rem] bg-gray mr-3">
         {/*  */}
-        <div className="flex items-center h-[100%] w-[40%] ">
+        <div className="flex items-center md:h-[70%] w-[40%] ">
           <button
             className="xe"
             // style={{ backgroundColor: "white" }}
@@ -36,7 +36,7 @@ const Users = () => {
               />
             </svg>
           </button>
-          <button className="xe ">
+          <button className="xe">
             {/* <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
