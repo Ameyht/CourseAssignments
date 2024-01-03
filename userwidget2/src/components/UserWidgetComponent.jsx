@@ -30,12 +30,12 @@ const UserWidgetComponent = () => {
       image: "../images/roman.jpeg",
       status: "Active",
     },
-    {
-      name: "Roman Torres",
-      email: "Romantorres@gmail.com",
-      image: "../images/roman.jpeg",
-      status: "Active",
-    },
+    // {
+    //   name: "Roman Torres",
+    //   email: "Romantorres@gmail.com",
+    //   image: "../images/roman.jpeg",
+    //   status: "Active",
+    // },
     // {
     //   name: "Roman Torres",
     //   email: "Romantorres@gmail.com",
@@ -86,7 +86,7 @@ const UserWidgetComponent = () => {
     // },
   ];
   return (
-    <div className="userboard flex flex-col bg-white h-[85%] md:h-[77%] mx-4">
+    <div className="userboard flex flex-col bg-white min-h-16 h-auto md:min-h-16 md:h-auto mx-2 md:mx-4">
       <div className="left flex justify-between h-14 ">
         <div className="px-3 col-3 h-[100%] flex items-center text-nowrap">
           <button
@@ -126,7 +126,7 @@ const UserWidgetComponent = () => {
           <SearchBox />
         </div>
       </div>
-      <div className="flex-col flex-wrap bg-white min-h-16 h-auto md:min-h-16 md:h-auto md:flex lg:flex-row ">
+      <div className="flex-col flex-wrap bg-white mx-4 min-h-16 h-auto md:min-h-16 md:h-auto md:flex lg:flex-row ">
         {userData.map((user, index) => (
           <div className="md:col-md-4 md:h-[7rem] flex-wrap" key={index}>
             <UserCard {...user} />

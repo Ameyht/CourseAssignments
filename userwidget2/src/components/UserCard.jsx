@@ -2,7 +2,7 @@ import React from "react";
 
 const UserCard = ({ name, email, image, status }) => {
   return (
-    <div className="flex justify-around items-center overflow-hidden w-[16rem] md:w-[18rem] rounded-2 border border-gray bg-gray-100 p-1 h-[4.8rem] mx-3 my-3">
+    <div className="flex justify-around items-center overflow-hidden w-[19rem] md:w-[18rem] rounded-2 border border-gray bg-gray-100 p-1 h-[4.8rem] mx-3 my-3">
       {/* <div className="h-[100%] w-[100px]"> */}
       <img src={image} className="w-14 h-14 rounded-full" alt="..." />
       {/* </div> */}
