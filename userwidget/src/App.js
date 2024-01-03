@@ -1,6 +1,7 @@
 import "./App.css";
 import Main from "./components/Main";
 import Sidebar from "./components/Sidebar";
+import UserWidget from "./components/UserWidget";
 
 function App() {
   const myStyles = {
@@ -18,6 +19,7 @@ function App() {
           <Main />
         </div> */}
           <Main />
+          {/* <UserWidget /> */}
         </div>
       </div>
     </div>

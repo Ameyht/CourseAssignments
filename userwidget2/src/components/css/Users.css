@@ -1,3 +1,15 @@
-.btn1:hover {
-  background-color: #600;
+.xe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 45%;
+  border: 1px solid gray;
+  color: blueviolet;
+  /* flex justify-center items-center h-[70%] w-[45%] bg-white border-1 border-gray-400 */
+  background: white;
+}
+.xe:hover {
+  background: blueviolet;
+  color: white;
 }

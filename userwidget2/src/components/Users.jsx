@@ -11,7 +11,7 @@ const Users = () => {
         {/*  */}
         <div className="flex items-center h-[100%] w-[40%] ">
           <button
-            className="flex justify-center items-center h-[70%] w-[45%] bg-white border-1 border-gray-400 hover:bg-purple-400"
+            className="xe"
             // style={{ backgroundColor: "white" }}
             // onMouseOver={(e) => (e.target.style.backgroundColor = "purple")}
             // onMouseOut={(e) => (e.target.style.backgroundColor = "white")}
@@ -20,7 +20,7 @@ const Users = () => {
               xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
-              fill="blueviolet"
+              fill="currentColor"
               class="bi bi-list-task"
               viewBox="0 0 16 16"
             >
@@ -35,12 +35,12 @@ const Users = () => {
               />
             </svg>
           </button>
-          <button className=" flex justify-center items-center bg-white h-[70%] w-[45%] border-1 border-gray-400 ">
+          <button className="xe ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
               height="25"
-              fill="blueviolet"
+              fill="currentColor"
               class="bi bi-three-dots"
               viewBox="0 0 16 16"
             >

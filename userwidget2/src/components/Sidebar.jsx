@@ -9,8 +9,8 @@ const Sidebar = () => {
   };
 
   return (
-    <div className="flex flex-col items-center bg-white border border-white-300 h-[13%] w-full md:h-full md:w-[16%]">
-      <div className="flex justify-between w-full items-center md:h-[10%] ">
+    <div className="flex flex-col items-center bg-white border border-white-300 h-[10%] w-full md:h-full md:w-[16%]">
+      <div className="flex justify-between w-full items-center my-3 md:my-0 h-[3rem] md:h-[5%] ">
         <img
           src="./images/multikart.png"
           className="h-[5rem] md:h-[5rem]"
@@ -20,10 +20,12 @@ const Sidebar = () => {
           {side ? "" : <BiMenuAltLeft size={45} />}
         </div>
       </div>
-      <div className="hidden md:flex flex-col text-[18px] md:w-full truncate ">
-        <h1 className="py-2 px-3 uppercase">Main Menu</h1>
-        <div className="py-3">
-          <div className="group flex items-center h-10 rounded-br-full hover:bg-purple-400 transition-all duration-300">
+      <div className="hidden md:flex flex-col mt-1 text-[18px] md:w-full truncate ">
+        <h1 className="py-2 my-1 px-3 text-[15px] text-gray-600 uppercase">
+          Main Menu
+        </h1>
+        <div className="">
+          <div className="group flex items-center h-8 my-2 rounded-br-full hover:bg-purple-400 transition-all duration-300">
             <span className="w-2 h-[100%] mr-2 group-hover:bg-violet-700"></span>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +42,8 @@ const Sidebar = () => {
               />
             </svg>
             <a
+              href=""
               className="text-[18px] px-1 overflow-hidden whitespace-nowrap "
-              href="#"
             >
               Dashboard
             </a>
@@ -62,7 +64,10 @@ const Sidebar = () => {
                 d="M13.5 5a.5.5 0 0 1 .5.5V7h1.5a.5.5 0 0 1 0 1H14v1.5a.5.5 0 0 1-1 0V8h-1.5a.5.5 0 0 1 0-1H13V5.5a.5.5 0 0 1 .5-.5"
               />
             </svg>
-            <a className="text-[18px] px-2 overflow-hidden whitespace-nowrap">
+            <a
+              href=""
+              className="text-[18px] px-2 overflow-hidden whitespace-nowrap"
+            >
               Users
             </a>
           </div>
