@@ -1,4 +1,5 @@
 import React from "react";
+import "./css/Users.css";
 
 const Users = () => {
   return (
@@ -8,8 +9,13 @@ const Users = () => {
       </div>
       <div className="flex items-center right border-0 border-black-300 h-[90%] w-[13rem] bg-gray mr-3">
         {/*  */}
-        <div className="flex items-center  h-[100%] w-[40%] ">
-          <button className="flex justify-center items-center h-[70%] w-[45%] bg-white border-1 border-gray-400 hover:bg-purple-700">
+        <div className="flex items-center h-[100%] w-[40%] ">
+          <button
+            className="flex justify-center items-center h-[70%] w-[45%] bg-white border-1 border-gray-400 hover:bg-purple-400"
+            // style={{ backgroundColor: "white" }}
+            // onMouseOver={(e) => (e.target.style.backgroundColor = "purple")}
+            // onMouseOut={(e) => (e.target.style.backgroundColor = "white")}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
@@ -29,7 +35,7 @@ const Users = () => {
               />
             </svg>
           </button>
-          <button className="flex justify-center items-center bg-white h-[70%] w-[45%] border-1 border-gray-400 hover:bg-purple-700">
+          <button className=" flex justify-center items-center bg-white h-[70%] w-[45%] border-1 border-gray-400 ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="25"
