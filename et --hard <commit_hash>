@@ -1,0 +1,43 @@
+[33maa3192d[m[33m ([m[1;36mHEAD -> [m[1;32mZustand[m[33m)[m HEAD@{0}: commit: a
+[33m24a06f8[m HEAD@{1}: commit: Changes in heights of app main sidebar userwidgets and user.css
+[33m108b316[m HEAD@{2}: reset: moving to HEAD~
+[33m22bf5e9[m[33m ([m[1;31morigin/ReactAssignment[m[33m, [m[1;32mReactAssignment[m[33m)[m HEAD@{3}: reset: moving to HEAD~
+[33m25a3a1b[m[33m ([m[1;31morigin/Zustand[m[33m)[m HEAD@{4}: commit: Course Todo using Zustand
+[33m22bf5e9[m[33m ([m[1;31morigin/ReactAssignment[m[33m, [m[1;32mReactAssignment[m[33m)[m HEAD@{5}: checkout: moving from ReactAssignment to Zustand
+[33m22bf5e9[m[33m ([m[1;31morigin/ReactAssignment[m[33m, [m[1;32mReactAssignment[m[33m)[m HEAD@{6}: commit: Changes in heights of app main sidebar userwidgets and user.css
+[33m108b316[m HEAD@{7}: commit: Change in Button in User Component
+[33mf2e1440[m HEAD@{8}: commit: Sidebar and UserCard Changes
+[33m2d2ecfe[m HEAD@{9}: commit: height issue solved in Main
+[33mda0ead4[m HEAD@{10}: commit: changed the named of userwidget->userwid
+[33m5848b4e[m HEAD@{11}: commit: Final Changes for submission
+[33m05618c0[m HEAD@{12}: commit: auto increment in height of main components.
+[33mdd793db[m HEAD@{13}: commit: changes in usercard
+[33mb9162e6[m HEAD@{14}: commit: userwidget responsive
+[33m3c372a4[m HEAD@{15}: commit: user card responsive
+[33m0900f9c[m HEAD@{16}: commit: UserWidget responsive
+[33mecdd979[m HEAD@{17}: commit: responsive users bar
+[33mbf81b88[m HEAD@{18}: commit: header responsive
+[33m01d96c5[m HEAD@{19}: commit: responsive header
+[33ma9db27e[m HEAD@{20}: commit: too many changes
+[33m8662a04[m HEAD@{21}: commit: Search Bar Adjustment
+[33mc1e59fb[m HEAD@{22}: checkout: moving from ReactAssignment to ReactAssignment
+[33mc1e59fb[m HEAD@{23}: commit: sidebar and userwidget changes
+[33m8c9990c[m HEAD@{24}: commit: Ui modified
+[33md628a09[m HEAD@{25}: commit: Add Usercard
+[33me048736[m HEAD@{26}: commit: assignment
+[33mc564056[m HEAD@{27}: checkout: moving from ReactAssignment to ReactAssignment
+[33mc564056[m HEAD@{28}: commit: gitignore
+[33m3fef7d2[m HEAD@{29}: checkout: moving from ReactAssignment to ReactAssignment
+[33m3fef7d2[m HEAD@{30}: checkout: moving from main to ReactAssignment
+[33m1253929[m[33m ([m[1;32mmain[m[33m)[m HEAD@{31}: checkout: moving from ReactAssignment to main
+[33m3fef7d2[m HEAD@{32}: checkout: moving from ReactAssignment to ReactAssignment
+[33m3fef7d2[m HEAD@{33}: commit: first component
+[33ma9e6cb5[m HEAD@{34}: commit: first assignment
+[33md8e8d86[m[33m ([m[1;32mdev[m[33m)[m HEAD@{35}: checkout: moving from main to ReactAssignment
+[33m1253929[m[33m ([m[1;32mmain[m[33m)[m HEAD@{36}: commit: gitignore
+[33mf694e67[m HEAD@{37}: checkout: moving from ReactAssignment to main
+[33md8e8d86[m[33m ([m[1;32mdev[m[33m)[m HEAD@{38}: commit: delete first
+[33m20ab632[m HEAD@{39}: commit: new project
+[33mf694e67[m HEAD@{40}: checkout: moving from main to ReactAssignment
+[33mf694e67[m HEAD@{41}: Branch: renamed refs/heads/master to refs/heads/main
+[33mf694e67[m HEAD@{43}: commit (initial): first commit
